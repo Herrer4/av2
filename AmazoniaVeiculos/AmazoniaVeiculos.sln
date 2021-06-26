@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazoniaVeiculos", "AmazoniaVeiculos.csproj", "{969F179E-171C-4520-A275-00044CC33AB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{64DB90A0-3416-4FF7-9BD3-E10E5C5B63FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{63921C59-267C-4F2A-A11C-CED3B2E8F82C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Historia", "Historia", "{5A32187D-35BB-4323-9C84-74ADB523A3D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{4769BE33-DB92-472E-9444-9AE8E365173E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entidades", "Entidades", "{02FCD37D-E18E-4E1D-BC26-72EDD52DB2C7}"
+	ProjectSection(SolutionItems) = preProject
+		Veiculo.cs = Veiculo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IRepositories", "IRepositories", "{1B6B48AF-EEAC-4E96-ACA6-A60D964FA304}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\SiteNoticiasUniron-master\src\Dominio\Dominio\IRepositories\IVeiculoRepository.cs = ..\..\SiteNoticiasUniron-master\src\Dominio\Dominio\IRepositories\IVeiculoRepository.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistencia", "Persistencia", "{8429DC3E-E78D-441D-ADAE-AED4C72977CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contexto", "Contexto", "{D7D36EC9-AC65-4CCD-BFBF-02110DDB864E}"
+	ProjectSection(SolutionItems) = preProject
+		DataContext.cs = DataContext.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Maps", "Maps", "{9275FFA3-E8D3-4956-BF17-D3A61D25BD02}"
+	ProjectSection(SolutionItems) = preProject
+		VeiculoMaps.cs = VeiculoMaps.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{969F179E-171C-4520-A275-00044CC33AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969F179E-171C-4520-A275-00044CC33AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969F179E-171C-4520-A275-00044CC33AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969F179E-171C-4520-A275-00044CC33AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{969F179E-171C-4520-A275-00044CC33AB7} = {4769BE33-DB92-472E-9444-9AE8E365173E}
+		{02FCD37D-E18E-4E1D-BC26-72EDD52DB2C7} = {64DB90A0-3416-4FF7-9BD3-E10E5C5B63FF}
+		{1B6B48AF-EEAC-4E96-ACA6-A60D964FA304} = {64DB90A0-3416-4FF7-9BD3-E10E5C5B63FF}
+		{8429DC3E-E78D-441D-ADAE-AED4C72977CD} = {63921C59-267C-4F2A-A11C-CED3B2E8F82C}
+		{D7D36EC9-AC65-4CCD-BFBF-02110DDB864E} = {63921C59-267C-4F2A-A11C-CED3B2E8F82C}
+		{9275FFA3-E8D3-4956-BF17-D3A61D25BD02} = {D7D36EC9-AC65-4CCD-BFBF-02110DDB864E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02E6763C-ED57-4671-A374-210F5CCA0C75}
+	EndGlobalSection
+EndGlobal
